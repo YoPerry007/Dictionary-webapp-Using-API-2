@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="shortcut icon"
+      href="https://i.postimg.cc/wMfHJ54q/icons8-dictionary-100.png"
+      type="image/x-icon"
+    />
+    <title>Dictionary</title>
+  </head>
+  <body>
+    <nav class="sticky-header">
+      <div>
+        <a href="index.html">Group Name</a>
+      </div>
+      <ul class="shown-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+      <i class="fa-solid fa-bars" style="color: #dee2e7"></i>
+
+      <div class="hamburger">
+        <i class="fa-regular fa-circle-xmark" style="color: #f0f3f4"></i>
+
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- End of nav  -->
+
+    <div class="contact-form">
+      <br />
+      <form id="contact-form">
+        <h1>Send Us A Message</h1>
+        <br /><br />
+        <input
+          type="text"
+          id="name"
+          name="name"
+          class="form-control"
+          placeholder="Your Name"
+          required
+        /><br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          class="form-control"
+          placeholder="Your Email"
+          required
+        /><br />
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          class="form-control"
+          placeholder="Phone Number"
+          required
+        /><br />
+        <textarea
+          name="message"
+          id="message"
+          class="form-control"
+          placeholder="Message"
+          rows="8"
+          required
+        ></textarea
+        ><br />
+        <input
+          type="submit"
+          value="SEND MAIL"
+          class="form-control submit"
+          id="btn"
+        />
+      </form>
+    </div>
+
+    <footer>
+      <p>
+        Thank you for visiting our website! This project was a collaborative
+        effort by our dedicated team, who poured their creativity and expertise
+        into bringing it to life. We're proud to present our collective work and
+        hope you find it both informative and engaging. Your support means the
+        world to us.
+      </p>
+      <br /><br />
+      <p>BTECH IT L200 Class C</p>
+    </footer>
+    <!--Script-->
+    <script src="js/main.js"></script>
+  </body>
+</html>
